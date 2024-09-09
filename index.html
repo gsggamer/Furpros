@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Furpros</title>
+<style>
+body { 
+  background-color: #31428A;
+
+  display: flex;
+ flex-direction: column;
+ align-items: center;
+ justify-content: center;
+ text-align: center;
+
+}
+* {margin:0; padding:0;}
+
+main {
+ background: url("background.png");
+ min-width: 100vw;
+ margin-top: -5px;
+}
+#divmain {
+ background: rgba(0, 0, 0, .55);
+}
+
+h1 {
+  font-family: "Segoe UI", Arial, sans-serif;
+  color: white;
+  text-align: center;
+}
+
+#dcD {
+ border-radius: 5px;
+ padding: 6px;
+ background: rgb(255, 255, 255);
+ width: 65px;
+ transition: 0.6s;
+}
+#dc {border-radius: 5px;}
+
+p {
+  color: white;
+  font-family: "Verdana", sans-serif;
+  font-size: 18px;
+}
+
+header {
+ padding: 17px;
+ background: #fff;
+ min-width: 100vw;
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ justify-content: center;
+ text-align: center;
+}
+
+section {
+ margin: 20px;
+ padding: 15px;
+}
+li {
+ margin: 6px;
+ font-family: "Verdana", sans-serif;
+ color: #fff;
+}
+footer {
+ padding: 0 10px;
+ margin: 20px 0;
+ min-width: 100vw;
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ justify-content: center;
+ text-align: center;
+ margin-bottom: 15px;
+}
+footer p {
+ font-size: 14px;
+ margin: 20px;
+}
+footer h1 {
+ font-size: 17px;
+}
+
+</style>
+</head>
+<body>
+
+<header>
+   <img src="LogoAlt.png" id="sla" width="135" height="135">
+</header>
+
+<main>
+<div id="divmain">
+<section>
+<h1>Olá! Seja bem-vindo à comunidade Furpro!</h1>
+<p>Estamos felizes por você ter encontrado nosso cantinho especial na internet. A Furpro é uma comunidade única de pessoas que compartilham um amor genuíno e uma profunda admiração por personagens antropomórficos, semelhantes aos Furries. No entanto, diferentemente de outras comunidades, temos um conjunto distinto de valores e princípios que nos diferenciam.</p>
+</section>
+
+<section>
+<h1>O que é a Furpro?</h1>
+<p>A Furpro é uma comunidade dedicada a reunir indivíduos que apreciam personagens antropomórficos – seres que combinam características humanas e animais de maneira encantadora e criativa. Nossos membros gostam bastante desses personagens e os celebram de diversas formas, como através de arte, histórias, cosplay e muito mais. Contudo, temos uma postura firme em relação a certos aspectos que consideramos prejudiciais.</p>
+</section>
+
+<section>
+<h1>Nossa Diferença:</h1>
+<p>A principal diferença entre a Furpro e outras comunidades Furries está em nossos valores e naquilo que escolhemos apoiar e promover. Na Furpro, não gostamos, consumimos, produzimos ou apoiamos conteúdos NSFW (Not Safe For Work), artes sugestivas, obscuras ou pornográficas envolvendo personagens antropomórficos. Acreditamos que a apreciação desses personagens pode ser feita de maneira saudável e respeitosa, sem recorrer a conteúdos que possam ser considerados inapropriados ou ofensivos.</p>
+</section>
+
+<section>
+<h1>Nossa Missão:</h1>
+<p>Nossa missão é proporcionar um espaço seguro e acolhedor onde os entusiastas de personagens antropomórficos possam se conectar, compartilhar suas criações e interagir de maneira positiva e construtiva. Queremos que todos os nossos membros se sintam confortáveis e respeitados, independentemente de sua idade, origem ou experiência na comunidade.</p>
+</section>
+
+<section>
+<h1>O que Oferecemos:</h1>
+
+<ul>
+<li>Comunidade Acolhedora: Um ambiente onde você pode conhecer pessoas com interesses semelhantes e fazer novos amigos.</li>
+
+<li>Espaço para Criação: Um lugar para compartilhar suas artes, histórias e projetos envolvendo personagens antropomórficos.</li>
+
+<li>Eventos e Atividades: Participação em eventos online, concursos de arte, sessões de desenho em grupo e outras atividades divertidas.</li>
+
+<li>Suporte e Orientação: Um espaço seguro para discutir suas ideias, receber feedback e melhorar suas habilidades criativas.</li>
+</ul>
+
+</section>
+
+<footer>
+
+<div>
+<h1>Junte-se a Nós!</h1>
+
+<p>Se você compartilha de nossos valores e tem um amor genuíno por personagens antropomórficos, gostaríamos muito de conhecê-lo! Temos um servidor no Discord onde nossa comunidade se reúne para conversar, compartilhar e se divertir. As portas da Furpro estão sempre abertas para novos membros que queiram fazer parte desse grupo único e especial.<br>Para entrar no nosso servidor Discord e se tornar um Furpro, basta seguir este link de convite. Esperamos vê-lo lá em breve e mal podemos esperar para conhecer mais sobre você e suas paixões!</p>
+<br>
+
+<div id="dcD">
+<a href="https://discord.gg/f8hVsanS5s"><img src="dcalt2.gif" width="65" height="65" id="dc"></a>
+</div>
+
+<br>
+<p>Site criado por Ratchet e GGGamer</p>
+</div>
+</footer>
+</div>
+</main>
+
+
+<script>
+
+dcD = document.getElementById("dcD");
+function randomColor() {
+
+ r=Math.floor(Math.random() * 255);
+ g=Math.floor(Math.random() * 255);
+ b=Math.floor(Math.random() * 255);
+
+ dcD.style.backgroundColor = "rgb("+r+","+g+","+b+");";
+
+}
+setInterval(randomColor(), 300);
+
+</script>
+
+
+</body>
+</html>
