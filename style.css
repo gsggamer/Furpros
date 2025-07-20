@@ -10,7 +10,7 @@
 body {
     font-family: Arial, sans-serif;
     background: url("./background.png");
-    background-size: cover;
+    color: #fff;
 }
 
 header {
@@ -25,20 +25,28 @@ header {
     z-index: 1000;
 }
 
+h1, h2 {
+    font-weight: bolder;
+}
+
+.subtitle {
+    margin: 0 25px -5px 25px;
+    background-color: #00e4d880;
+}
+
 header > img {
     width: 80px;
     height: auto;
 }
 
-section {
+#main {
     background-color: rgba(0, 0, 0, 0.8);
     margin-top: 110px;
-    padding: 25px;
+    padding: 25px 0;
 }
 
-section h1 {
+#main h1 {
     text-align: center;
-    color: #fff;
     font-size: 2em;
     margin-bottom: 20px;
 }
@@ -46,6 +54,40 @@ section h1 {
 hr {
     height: 1.5px;
     margin: 5px 25px;
+}
+
+span {
+    color: #ffcc00;
+    font-weight: bolder;
+}
+
+p {
+    font-size: 1.2em;
+    line-height: 1.4;
+    margin: 15px 25px;
+}
+
+.subtitle {
+    text-align: center;
+    font-size: 1.8em;
+    color: #ffffff;
+    font-weight: bold;
+    padding: 10px;
+}
+
+.question {
+    font-size: 1.5em;
+    color: #a5fffa;
+    margin: 20px 25px;
+}
+
+ul {
+    padding: 0 60px;
+}
+
+#join {
+    text-align: center;
+    margin: 20px 0;
 }
 
 footer {
@@ -56,4 +98,5 @@ footer {
     position: fixed;
     width: 100%;
     bottom: 0;
+    font-size: 0.9em;
 }
